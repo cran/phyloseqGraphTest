@@ -1,0 +1,16 @@
+769cbf2cbc690491a4d3e92062d49c86 *DESCRIPTION
+7285a9dffbdd8a054ca267a46c13e72f *NAMESPACE
+3ebdb4f19fbb1a03a853ebd06d06c463 *R/graphtest-functions.R
+db6abb098de8ea5d57d581705533253e *R/package-doc.R
+7b71e5302720561d613c07c085dfea40 *build/vignette.rds
+69443a26f35233bf0d728338de29c6e0 *inst/doc/gt_vignette.R
+6166a8f2a7164abebb2f6eb50717e96b *inst/doc/gt_vignette.Rmd
+d3268c7b181d26abdf8ef8a38ff9eabb *inst/doc/gt_vignette.html
+1b28537c5c319100724cedd29b00031b *man/graph_perm_test.Rd
+d6a8e02b2b3be04440f9f32186ba8fba *man/permute.Rd
+bedd5b8538a4d42f29f31ac1f789d758 *man/phyloseqGraphTest-package.Rd
+265551030bdce7bdd031f32aef5171f1 *man/plot_permutations.Rd
+fc854659f50c48d07cfeac57e1c48faa *man/plot_test_network.Rd
+5ecd360a74821f72a86eae9e0f573e6d *man/print.psgraphtest.Rd
+916f3231db9ead89c28fa33cc0f362ca *man/validGrouping.Rd
+6166a8f2a7164abebb2f6eb50717e96b *vignettes/gt_vignette.Rmd
