@@ -1,11 +1,11 @@
-068de25aef21b41108e9568e23a7cc09 *DESCRIPTION
+47e09754b04c23a941e4e8ce4246e175 *DESCRIPTION
 f56bbf953a4a4f9511f7ed292d5e9c09 *NAMESPACE
-c345c1a7f2ace6f10f3ce3be09cfd59b *R/graphtest-functions.R
+41f14949ad8e1ec318e5dc744ca208f7 *R/graphtest-functions.R
 db6abb098de8ea5d57d581705533253e *R/package-doc.R
-ca7d8d3ab3d2097fa732805015948df5 *build/vignette.rds
-69443a26f35233bf0d728338de29c6e0 *inst/doc/gt_vignette.R
+dd047fef5b4f74a7983f3e7f3b5e2d6a *build/vignette.rds
+bf99572a42f303b5b625ac695ebd8587 *inst/doc/gt_vignette.R
 6166a8f2a7164abebb2f6eb50717e96b *inst/doc/gt_vignette.Rmd
-31641c6db23109ecc658396bb3278acb *inst/doc/gt_vignette.html
+f06efd1f7e24d7a23217b41fb50ffed2 *inst/doc/gt_vignette.html
 1b28537c5c319100724cedd29b00031b *man/graph_perm_test.Rd
 d6a8e02b2b3be04440f9f32186ba8fba *man/permute.Rd
 bedd5b8538a4d42f29f31ac1f789d758 *man/phyloseqGraphTest-package.Rd

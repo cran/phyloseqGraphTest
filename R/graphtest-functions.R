@@ -1,3 +1,5 @@
+
+
 #' Performs graph-based permutation tests
 #'
 #' Performs graph-based tests for one-way designs.
@@ -168,7 +170,7 @@ validGrouping = function(sd, sampletype, grouping) {
     if(!(sampletype %in% colnames(sd))) {
         stop("\'sampletype\' must be a column names of the sample data")
     }
-    if(!(grouping %in% colnames(sd)) && (length(grouping) != nrow(sd))) {
+    if(!(all(grouping %in% colnames(sd))) && (length(grouping) != nrow(sd))) {
         stop("\'grouping\' must be either a column name of the sample data
              or a vector with number of elements equal to the number of samples")
     }
@@ -197,11 +199,11 @@ validGrouping = function(sd, sampletype, grouping) {
 #' @export
 plot_test_network = function(graphtest) {
     if(graphtest$type == "mst")
-        layoutMethod = "kamadakawai"
+        layout = igraph::layout_(graphtest$net, igraph::with_kk())
     else
-        layoutMethod = "fruchtermanreingold"
+        layout = igraph::layout_(graphtest$net, igraph::with_fr())
     ggplot(graphtest$net,
-      aes_string(x = "x", y = "y", xend = "xend", yend = "yend"), layout = layoutMethod) +
+      aes_string(x = "x", y = "y", xend = "xend", yend = "yend"), layout = layout) +
       geom_edges(aes_string(linetype = "edgetype")) +
       geom_nodes(aes_string(color = "sampletype")) +
       scale_linetype_manual(values = c(3,1)) + theme_blank()
